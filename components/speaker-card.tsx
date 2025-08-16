@@ -50,13 +50,13 @@ export default function SpeakerCard({
 }: Speaker) {
   return (
     <Card className="bg-white/5 border-white/10 backdrop-blur-sm text-white h-full">
-      <CardHeader className="flex items-center pt-6">
+      <CardHeader className="flex items-center justify-center pt-6">
         <div className="relative">
           <Image
             src={imageSrc || "/placeholder.svg?height=400&width=400&query=professional%20headshot"}
             alt={imageAlt}
-            width={140}
-            height={140}
+            width={160}
+            height={160}
             className="rounded-full object-cover ring-2 ring-white/20"
           />
           <span className="absolute -bottom-1 -right-1 inline-block h-4 w-4 rounded-full bg-emerald-500 ring-2 ring-[#040C40]"></span>

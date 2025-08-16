@@ -163,8 +163,8 @@ export default function Page() {
                     <Image
                       src="/images/church-logo.png"
                       alt="The Voice of Restoration International Ministry Logo"
-                      width={120}
-                      height={120}
+                      width={160}
+                      height={160}
                       className="rounded-lg object-contain shadow-lg"
                     />
                     <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/10 to-transparent"></div>
