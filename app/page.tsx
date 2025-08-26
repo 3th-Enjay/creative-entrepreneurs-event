@@ -102,6 +102,16 @@ const speakers: Speaker[] = [
     linkedin: "https://www.linkedin.com/",
     instagram: "https://www.instagram.com/",
   },
+  {
+    name: "Chiedozie Okeke",
+    role: "Director, Justprints Ltd",
+    imageAlt: "Professional headshot of Chiedozie Okeke",
+    imageSrc: "/images/IMG_4581.JPEG",
+    bio: "Visionary leader and entrepreneur; founder of Impactfield Global Youth Initiative and FELM Institute, author of 12 books, and Director at Plusfrica/Justprints building a world-class branding, printing, publishing and packaging company. Currently advancing studies at Miva Open University and Glorious Vision University.",
+    twitter: "https://twitter.com/",
+    linkedin: "https://www.linkedin.com/",
+    instagram: "https://www.instagram.com/",
+  },
 ]
 
 // Replace with your real WhatsApp invite link
@@ -304,7 +314,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="mt-6 grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="mt-6 grid gap-6 sm:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
               {speakers.map((sp) => (
                 <SpeakerCard key={sp.name} {...sp} />
               ))}
